@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: service-product
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+aliyun:
+  endpoint: oss-cn-beijing.aliyuncs.com
+  keyid: LTAI5tPMp5GksFgVBF8u2KUZ
+  keysecret: AjTUr3ZpkumD7LZA6zkcBQF9wmmiPA
+  bucketname: yunup-mail
